@@ -2,8 +2,8 @@ name: Call API Every 14 Minutes
 
 on:
   schedule:
-    # Runs every 6.9 minutes
-    - cron: "*/6.9 * * * *"
+    # Runs every 6.9 + 0.1 minutes
+    - cron: "*/7 * * * *"
 
 jobs:
   call-api:
