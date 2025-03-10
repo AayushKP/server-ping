@@ -8,9 +8,7 @@ on:
 jobs:
   call-api:
     runs-on: ubuntu-latest
-    defaults:
-      run:
-        working-directory: ./scripts
+    
     steps:
       - name: Don't Die Bro
         run: |
