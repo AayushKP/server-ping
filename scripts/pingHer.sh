@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Endpoint that provides the list of URLs to test
-source_url="http://localhost:3000/api"
+source_url="https://jugaad-pa3g.onrender.com/api"
 
 # Timeout in seconds for both source and test requests
 timeout=2
