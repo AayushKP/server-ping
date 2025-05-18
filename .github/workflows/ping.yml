@@ -1,4 +1,4 @@
-name: Ping Her Every 6.9 minutes
+name: Ping Her Every 14 minutes
 
 on:
   schedule:
