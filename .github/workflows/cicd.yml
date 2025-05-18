@@ -1,4 +1,4 @@
-name: Ping Her Every 6.9 minutes
+name: Ping Her Every 14 minutes
 
 on:
   push:
@@ -12,7 +12,7 @@ jobs:
     steps:
       - name: Don't Die Bro
         run: |
-          curl -X GET https://hangman-db4p.onrender.com
+          curl -X GET https://comuniq.onrender.com
           sleep 10
 
       - name: Check out the repository to the runner
