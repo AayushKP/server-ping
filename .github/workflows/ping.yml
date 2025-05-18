@@ -2,8 +2,8 @@ name: Ping Her Every 6.9 minutes
 
 on:
   schedule:
-    # Runs every 6.9 + 0.1 minutes
-    - cron: "*/7 * * * *"
+    # Runs every (6.9 + 0.1)*2  minutes
+    - cron: "*/14 * * * *"
 
 jobs:
   call-api:
